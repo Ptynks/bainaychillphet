@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="fontawesome-free-6.4.2-web/js/all.min.js"></script>
+    <title>Demo Grid System</title>
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg px-5 bg-white border-bottom">
+    <div class="container-fluid">
+      <!-- logo -->
+      <a class="navbar-brand" href="#">
+        <img src="bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- center -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="nav ">
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Abouts</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- button -->
+      <button type="button" class="btn btn-outline-primary">Login</button>
+      <button type="button" class="btn btn-primary mx-3">Sign up</button>
+    </div>
+  </nav>
+
+  <!-- main -->
+  <div class="container">
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-8">
+
+        <div class="card text-center mb-3" style="width: 100%; border: none; padding: 10% 0 10% 0;">
+          <div class="card-body">
+            <h1 class="card-title fs-1"><b>Centered screenshot</b></h1>
+            <p class="card-text text-secondary">Qickly design and customize reponsive mobile-first sites with Bootstrap. the worlds most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt component, and powerful javaScript plugins.</p>
+            <button type="button" class="btn btn-primary">Primary button</button>
+            <button type="button" class="btn btn-outline-secondary mx-3">Secondary</button>
+          </div>
+        </div>
+
+        <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+          <img src="bootstrap-home.png" class="img-fluid">
+        </div>
+
+      </div>
+      <div class="col-2"></div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-white pb-6" style="transform: translateY(-130px); width: 100%; margin: 0;">
+    <hr style="border-top: 2px solid gray; margin: 0;">
+    <div class="container" style="padding: 5% 3%">
+      <h1>Features with title</h1>
+      <hr style="border-top: 2px solid gray; margin: 0;">
+
+      <div class="row mt-5">
+
+        <div class="col-6">
+          <div class="card p-5 border-0">
+            <div class="card-body">
+              <h5 class="card-title">
+                <b>
+                  Left-aligned title explaining these awesome features
+                </b>
+              </h5>
+              <p class="card-text text-secondary">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="btn btn-primary">Primary button</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <table class="table table-borderless">
+            <tr>
+
+              <th>
+                <div class="card border-0">
+                  <div class="card-body">
+                    <i class="fa-solid fa-house p-2 bg-primary rounded-3 text-white"></i>
+                    <h5 class="card-title">Featured title</h5>
+                    <h6 class="card-text text-secondary">Paragraph of text beneath the heading to explain the heading.</h6>
+                  </div>
+                </div>
+              </th>
+
+              <th>
+                <div class="card border-0">
+                  <div class="card-body">
+                    <i class="fa-solid fa-star p-2 bg-primary rounded-3 text-white"></i>
+                    <h5 class="card-title">Featured title</h5>
+                    <h6 class="card-text text-secondary">Paragraph of text beneath the heading to explain the heading.</h6>
+                  </div>
+                </div>
+              </th>
+
+            </tr>
+            <tr>
+
+              <th>
+                <div class="card border-0">
+                  <div class="card-body">
+                    <i class="fa-brands fa-github p-2 bg-primary rounded-3 text-white"></i>
+                    <h5 class="card-title">Featured title</h5>
+                    <h6 class="card-text text-secondary">Paragraph of text beneath the heading to explain the heading.</h6>
+                  </div>
+                </div>
+              </th>
+
+              <th>
+                <div class="card border-0">
+                  <div class="card-body">
+                    <i class="fa-regular fa-comment p-2 bg-primary rounded-3 text-white"></i>
+                    <h5 class="card-title">Featured title</h5>
+                    <h6 class="card-text text-secondary">Paragraph of text beneath the heading to explain the heading.</h6>
+                  </div>
+                </div>
+              </th>
+
+            </tr>
+          </table>
+        </div>  
+      </div>
+    </div>
+  </div>
+
+  
+  <footer class="container">
+    <hr style="border-top: 2px solid gray;">
+    <div class="row">
+      <div class="col-4">
+        <img src="bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+        <p>© Σ(っ °Д °;)っ</p>
+      </div>
+
+      <div class="col-8">
+        <table class="table table-borderless">
+            <thead>
+              <tr>
+                <th scope="col">Section</th>
+                <th scope="col">Section</th>
+                <th scope="col">Section</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Home</td>
+                <td>Home</td>
+                <td>Home</td>
+              </tr>
+              <tr>
+                <td>Features</td>
+                <td>Features</td>
+                <td>Features</td>
+              </tr>
+              <tr>
+                <td>Pricing</td>
+                <td>Pricing</td>
+                <td>Pricing</td>
+              </tr>
+              <tr>
+                <td>FAQs</td>
+                <td>FAQs</td>
+                <td>FAQs</td>
+              </tr>
+            </tbody>
+        </table>
+      </div>
+
+    </div>
+  </footer>
+</body>
+</html>
